@@ -1,0 +1,56 @@
+{
+  "manifest": "1",
+  "version": "1.2.23",
+  "elements": [
+    {
+      "name": "Autodesk 3D Viewer",
+      "path": "files",
+      "version": "1.2.23",
+      "settings": {
+        "config": {
+          "autopop": true
+        },
+        "properties": [
+          {
+            "name": "settings",
+            "label": "Settings",
+            "type": "group",
+            "properties": [
+              {
+                "name": "urn",
+                "label": "URN",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "accesstoken",
+                "label": "Access Token",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "height",
+                "label": "Height",
+                "type": "string",
+                "default": "700px"
+              }
+            ]
+          },
+          {
+            "name": "advanced",
+            "label": "Advanced",
+            "type": "group",
+            "properties": [
+              {
+                "name": "endpoint",
+                "label": "Access Token",
+                "type": "string",
+                "default": "http://viewer.autodesk.io/node/gallery/api/token"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
